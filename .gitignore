@@ -3,6 +3,7 @@
 /logs/
 /world/
 /usercache.json
+/usernamecache.json
 /whitelist.json
 /ops.json
 /banned-players.json
