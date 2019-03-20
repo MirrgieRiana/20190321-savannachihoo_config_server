@@ -11,3 +11,9 @@
 /banned-ips.json
 
 /mods/
+
+/.mixin.out/
+/crafttweaker.log
+/dynmap/web/tiles/faces
+/dynmap/web/tiles/world
+/options.txt
