@@ -14,6 +14,8 @@
 /dynmap/web/tiles/faces
 /dynmap/web/tiles/world
 /options.txt
+/dynmap/ids-by-ip.txt
+/dynmap/world.pending
 
 /forge-1.12.2-14.23.4.2705-universal.jar
 /minecraft_server.1.12.2.jar
