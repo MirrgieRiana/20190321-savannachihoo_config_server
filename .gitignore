@@ -1,26 +1,8 @@
-/libraries/
-/eula.txt
-/logs/
-/usercache.json
-/usernamecache.json
-/whitelist.json
-/ops.json
-/banned-players.json
-/banned-ips.json
 
-/world/
-/dynmap/markers.yml
-
-/.mixin.out/
-/crafttweaker.log
-/dynmap/web/tiles/faces
-/dynmap/web/tiles/world
-/options.txt
-/dynmap/ids-by-ip.txt
-/dynmap/world.pending
-
+# バイナリファイル
 /forge-1.12.2-14.23.4.2705-universal.jar
 /minecraft_server.1.12.2.jar
+/libraries/
 /mods/?1.12??forge2413?mod_CutAllSMP_v2.5.2.zip
 /mods/?1.12??forge2413?mod_DigAllSMP_v2.3.2.zip
 /mods/?1.12??forge2413?mod_MineAllSMP_v2.6.5.zip
@@ -40,3 +22,28 @@
 /mods/Reforged-0.7.5-1.12+.jar
 /mods/thutessentials-1.12.2-2.2.16.jar
 /mods/thutpermissions-1.12.2-2.1.9 (1).jar
+
+# ゲームデータファイル
+/world/
+/dynmap/markers.yml
+/ops.json
+/whitelist.json
+/banned-players.json
+/banned-ips.json
+
+# コンフィグ系ファイル
+/eula.txt
+/options.txt
+
+# ログファイル
+/logs/
+/crafttweaker.log
+
+# 一時ファイル・キャッシュファイル
+/usercache.json
+/usernamecache.json
+/.mixin.out/
+/dynmap/web/tiles/faces
+/dynmap/web/tiles/world
+/dynmap/ids-by-ip.txt
+/dynmap/world.pending
