@@ -9,7 +9,7 @@ worlds:
   # Worlds can be handled by templates, based on world type
   # You can override the properties of the template by specifying them in this section
   #    for example 'Title: "My Awesome World"'
-  #- name: world
+  - name: world
   #  title: "World"
   #   Use 'enabled: false' to disable a certain world.
   #  enabled: false
@@ -60,36 +60,77 @@ worlds:
   #  # If bigworld set to true, use alternate directory layout better suited to large worlds
   #  bigworld: true
   #  # Number of extra zoom-out levels for world (each level is twice as big as the previous one)
-  #  extrazoomout: 3
+    extrazoomout: 6
   #  # Default delay on processing of updated tiles, in seconds.  This can reduce potentially expensive re-rendering
   #  # of frequently updated tiles (such as due to machines, pistons, quarries or other automation).  Value can also be set on
   #  # individual maps.
   #  tileupdatedelay: 30
-  #  maps:
-  #    - class: org.dynmap.hdmap.HDMap
-  #      name: flat
-  #      title: "Flat"
-  #      prefix: flat
-  #      perspective: iso_S_90_lowres
-  #      shader: stdtexture
-  #      lighting: shadows
-  #      mapzoomin: 1
-  #    - class: org.dynmap.hdmap.HDMap
-  #      name: surface
-  #      title: "Surface"
-  #      prefix: t
-  #      perspective: iso_SE_30_hires
-  #      shader: stdtexture
-  #      lighting: shadows
-  #      mapzoomin: 1
-  #    - class: org.dynmap.hdmap.HDMap
-  #      name: cave
-  #      title: "Cave"
-  #      prefix: ct
-  #      perspective: iso_SE_60_lowres
-  #      shader: cave
-  #      lighting: default
-  #      mapzoomin: 3
+    maps:
+      
+      # flat
+      
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        icon: images/block_flat.png
+      
+      # surface
+      
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_se
+        title: "Surface SE"
+        prefix: t_se
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: shadows
+        icon: images/block_surface.png
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_sw
+        title: "Surface SW"
+        prefix: t_sw
+        perspective: iso_SW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        icon: images/block_surface.png
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_nw
+        title: "Surface NW"
+        prefix: t_nw
+        perspective: iso_NW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        icon: images/block_surface.png
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_ne
+        title: "Surface NE"
+        prefix: t_ne
+        perspective: iso_NE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        icon: images/block_surface.png
+        
+        # cave
+        
+      - class: org.dynmap.hdmap.HDMap
+        name: flat_cave
+        title: "Flat Cave"
+        prefix: ct2
+        perspective: iso_S_90_lowres
+        shader: cave
+        lighting: default
+        icon: images/block_cave.png
+      - class: org.dynmap.hdmap.HDMap
+        name: cave
+        title: "Cave"
+        prefix: ct
+        perspective: iso_SE_60_lowres
+        shader: cave
+        lighting: default
+        icon: images/block_cave.png
   #
   # To just label world, and inherit rest from template, just provide name and title
   #- name: world2
