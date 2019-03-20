@@ -4,3 +4,8 @@
 /eula.txt
 /logs/
 /world/
+/usercache.json
+/whitelist.json
+/ops.json
+/banned-players.json
+/banned-ips.json
