@@ -1,4 +1,3 @@
-
 recipes.remove(<betterbuilderswands:wandstone>, false);
 recipes.remove(<betterbuilderswands:wandiron>, false);
 recipes.remove(<betterbuilderswands:wanddiamond>, false);
